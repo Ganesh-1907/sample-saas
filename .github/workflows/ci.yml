@@ -32,6 +32,10 @@ jobs:
     - name: Lint code
       run: npm run lint
 
+    - name: Check for syntax errors
+      run: |
+        npm run check-syntax
+
     - name: Run tests
       run: npm test
 
