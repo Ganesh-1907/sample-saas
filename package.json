@@ -1,0 +1,17 @@
+{
+  "name": "sample-saas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "echo 'Running linter...' && exit 0",
+    "test": "echo 'Running tests...' && exit 0",
+    "migrate": "echo 'Running migrations...' && exit 0",
+    "build": "echo 'Building project...' && exit 0",
+    "deploy:staging": "echo 'Deploying to staging...' && exit 0",
+    "deploy:production": "echo 'Deploying to production...' && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
