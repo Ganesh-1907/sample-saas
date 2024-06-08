@@ -1,3 +1,5 @@
 // index.js
 console.log("Hello, world!");
-console.log("FIx API!");
+
+// Introduce a syntax error
+console.log("This is an intentional syntax error
