@@ -4,10 +4,12 @@ on:
   push:
     branches:
       - fix-api-t
+      - main
+      - staging
 
 jobs:
   build-and-test:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - name: Checkout repository
